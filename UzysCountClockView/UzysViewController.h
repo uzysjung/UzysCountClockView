@@ -9,15 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "SSLabel.h"
 #import "UzysCountClockViewManager.h"
-
+#import "ARCHelper.h"
 @interface UzysViewController : UIViewController
-@property (retain, nonatomic) IBOutlet UIButton *btnStart;
-@property (retain, nonatomic) IBOutlet SSLabel *label_Day;
-@property (retain, nonatomic) IBOutlet SSLabel *label_Hour;
-@property (retain, nonatomic) IBOutlet SSLabel *label_Minute;
-@property (retain, nonatomic) IBOutlet SSLabel *label_Seconds;
-@property (retain, nonatomic) UzysCountClockViewManager *cntClockViewManager;
-@property (retain, nonatomic) IBOutlet UIView *viewSecBG;
+@property (strong, nonatomic) IBOutlet UIButton *btnStart;
+@property (strong, nonatomic) IBOutlet SSLabel *label_Day;
+@property (strong, nonatomic) IBOutlet SSLabel *label_Hour;
+@property (strong, nonatomic) IBOutlet SSLabel *label_Minute;
+@property (strong, nonatomic) IBOutlet SSLabel *label_Seconds;
+@property (strong, nonatomic) UzysCountClockViewManager *cntClockViewManager;
+@property (strong, nonatomic) IBOutlet UIView *viewSecBG;
 - (IBAction)actionStart:(id)sender;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		959421C816C3971800DD0B74 /* UzysCountClockViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 959421C716C3971800DD0B74 /* UzysCountClockViewManager.m */; };
 		95F0BFDF16BFA75500E7D21D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0BFDE16BFA75500E7D21D /* UIKit.framework */; };
 		95F0BFE116BFA75500E7D21D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0BFE016BFA75500E7D21D /* Foundation.framework */; };
 		95F0BFE316BFA75500E7D21D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0BFE216BFA75500E7D21D /* CoreGraphics.framework */; };
@@ -18,12 +19,14 @@
 		95F0BFF516BFA75500E7D21D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F0BFF416BFA75500E7D21D /* Default-568h@2x.png */; };
 		95F0BFF816BFA75500E7D21D /* UzysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0BFF716BFA75500E7D21D /* UzysViewController.m */; };
 		95F0BFFB16BFA75500E7D21D /* UzysViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F0BFF916BFA75500E7D21D /* UzysViewController.xib */; };
-		95F0C00316BFA79400E7D21D /* UzysCountClockViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C00216BFA79400E7D21D /* UzysCountClockViewManager.m */; };
 		95F0C00616BFB90A00E7D21D /* SSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C00516BFA7E800E7D21D /* SSLabel.m */; };
 		95F0C00816BFC0B300E7D21D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0C00716BFC0B300E7D21D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		959421C516C3971800DD0B74 /* ARCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCHelper.h; sourceTree = "<group>"; };
+		959421C616C3971800DD0B74 /* UzysCountClockViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysCountClockViewManager.h; sourceTree = "<group>"; };
+		959421C716C3971800DD0B74 /* UzysCountClockViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysCountClockViewManager.m; sourceTree = "<group>"; };
 		95F0BFDB16BFA75500E7D21D /* UzysCountClockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UzysCountClockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F0BFDE16BFA75500E7D21D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		95F0BFE016BFA75500E7D21D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,8 +43,6 @@
 		95F0BFF616BFA75500E7D21D /* UzysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UzysViewController.h; sourceTree = "<group>"; };
 		95F0BFF716BFA75500E7D21D /* UzysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UzysViewController.m; sourceTree = "<group>"; };
 		95F0BFFA16BFA75500E7D21D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UzysViewController.xib; sourceTree = "<group>"; };
-		95F0C00116BFA79400E7D21D /* UzysCountClockViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysCountClockViewManager.h; sourceTree = "<group>"; };
-		95F0C00216BFA79400E7D21D /* UzysCountClockViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysCountClockViewManager.m; sourceTree = "<group>"; };
 		95F0C00416BFA7E800E7D21D /* SSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLabel.h; sourceTree = "<group>"; };
 		95F0C00516BFA7E800E7D21D /* SSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLabel.m; sourceTree = "<group>"; };
 		95F0C00716BFC0B300E7D21D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -62,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		959421C416C3971800DD0B74 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				959421C516C3971800DD0B74 /* ARCHelper.h */,
+				959421C616C3971800DD0B74 /* UzysCountClockViewManager.h */,
+				959421C716C3971800DD0B74 /* UzysCountClockViewManager.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		95F0BFD216BFA75500E7D21D = {
 			isa = PBXGroup;
 			children = (
@@ -93,10 +104,9 @@
 		95F0BFE416BFA75500E7D21D /* UzysCountClockView */ = {
 			isa = PBXGroup;
 			children = (
+				959421C416C3971800DD0B74 /* Library */,
 				95F0C00416BFA7E800E7D21D /* SSLabel.h */,
 				95F0C00516BFA7E800E7D21D /* SSLabel.m */,
-				95F0C00116BFA79400E7D21D /* UzysCountClockViewManager.h */,
-				95F0C00216BFA79400E7D21D /* UzysCountClockViewManager.m */,
 				95F0BFED16BFA75500E7D21D /* UzysAppDelegate.h */,
 				95F0BFEE16BFA75500E7D21D /* UzysAppDelegate.m */,
 				95F0BFF616BFA75500E7D21D /* UzysViewController.h */,
@@ -192,7 +202,7 @@
 				95F0BFEF16BFA75500E7D21D /* UzysAppDelegate.m in Sources */,
 				95F0BFF816BFA75500E7D21D /* UzysViewController.m in Sources */,
 				95F0C00616BFB90A00E7D21D /* SSLabel.m in Sources */,
-				95F0C00316BFA79400E7D21D /* UzysCountClockViewManager.m in Sources */,
+				959421C816C3971800DD0B74 /* UzysCountClockViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +285,7 @@
 		95F0BFFF16BFA75500E7D21D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UzysCountClockView/UzysCountClockView-Prefix.pch";
 				INFOPLIST_FILE = "UzysCountClockView/UzysCountClockView-Info.plist";
@@ -286,6 +297,7 @@
 		95F0C00016BFA75500E7D21D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UzysCountClockView/UzysCountClockView-Prefix.pch";
 				INFOPLIST_FILE = "UzysCountClockView/UzysCountClockView-Info.plist";
@@ -313,6 +325,7 @@
 				95F0C00016BFA75500E7D21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

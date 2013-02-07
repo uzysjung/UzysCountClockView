@@ -8,14 +8,14 @@
 
 #import "UzysCountClockViewManager.h"
 @interface UzysCountClockViewManager()
-@property (nonatomic,retain) NSString *currentClock;
-@property (nonatomic,retain) NSArray *clockTickers;
+@property (nonatomic,strong) NSString *currentClock;
+@property (nonatomic,strong) NSArray *clockTickers;
 @property (nonatomic,assign) NSTimer *tickTimer;
 
-@property (nonatomic,retain) UIView *ViewHour;
-@property (nonatomic,retain) UIView *ViewMinute;
-@property (nonatomic,retain) UIView *ViewSecond;
-@property (nonatomic,retain) UIView *ViewDay;
+@property (nonatomic,strong) UIView *ViewHour;
+@property (nonatomic,strong) UIView *ViewMinute;
+@property (nonatomic,strong) UIView *ViewSecond;
+@property (nonatomic,strong) UIView *ViewDay;
 @property (nonatomic,assign) BOOL is2Digit;
 @end
 
@@ -59,7 +59,7 @@
     [_ViewHour release];
     [_ViewMinute release];
     [_ViewSecond release];
-    [super dealloc];
+    [super ah_dealloc];
 }
 
 #pragma mark - Property
@@ -68,7 +68,7 @@
     if( !targetDate ) return;
     
     [_targetDate release];
-    _targetDate = [targetDate retain];
+    _targetDate = [targetDate ah_retain];
     
     [self numberTick:nil];
     

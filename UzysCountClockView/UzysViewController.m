@@ -37,7 +37,7 @@
     [_label_Minute release];
     [_label_Seconds release];
 
-    [super dealloc];
+    [super ah_dealloc];
 }
 - (IBAction)actionStart:(id)sender {
     

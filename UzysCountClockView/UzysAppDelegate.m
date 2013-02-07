@@ -7,16 +7,15 @@
 //
 
 #import "UzysAppDelegate.h"
-
 #import "UzysViewController.h"
-
+#import "ARCHelper.h"
 @implementation UzysAppDelegate
 
 - (void)dealloc
 {
     [_window release];
     [_viewController release];
-    [super dealloc];
+    [super ah_dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
