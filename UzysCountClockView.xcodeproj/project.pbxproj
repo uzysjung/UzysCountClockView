@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95F0BFDF16BFA75500E7D21D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0BFDE16BFA75500E7D21D /* UIKit.framework */; };
+		95F0BFE116BFA75500E7D21D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0BFE016BFA75500E7D21D /* Foundation.framework */; };
+		95F0BFE316BFA75500E7D21D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0BFE216BFA75500E7D21D /* CoreGraphics.framework */; };
+		95F0BFE916BFA75500E7D21D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95F0BFE716BFA75500E7D21D /* InfoPlist.strings */; };
+		95F0BFEB16BFA75500E7D21D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0BFEA16BFA75500E7D21D /* main.m */; };
+		95F0BFEF16BFA75500E7D21D /* UzysAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0BFEE16BFA75500E7D21D /* UzysAppDelegate.m */; };
+		95F0BFF116BFA75500E7D21D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F0BFF016BFA75500E7D21D /* Default.png */; };
+		95F0BFF316BFA75500E7D21D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F0BFF216BFA75500E7D21D /* Default@2x.png */; };
+		95F0BFF516BFA75500E7D21D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F0BFF416BFA75500E7D21D /* Default-568h@2x.png */; };
+		95F0BFF816BFA75500E7D21D /* UzysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0BFF716BFA75500E7D21D /* UzysViewController.m */; };
+		95F0BFFB16BFA75500E7D21D /* UzysViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F0BFF916BFA75500E7D21D /* UzysViewController.xib */; };
+		95F0C00316BFA79400E7D21D /* UzysCountClockViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C00216BFA79400E7D21D /* UzysCountClockViewManager.m */; };
+		95F0C00616BFB90A00E7D21D /* SSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C00516BFA7E800E7D21D /* SSLabel.m */; };
+		95F0C00816BFC0B300E7D21D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0C00716BFC0B300E7D21D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95F0BFDB16BFA75500E7D21D /* UzysCountClockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UzysCountClockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F0BFDE16BFA75500E7D21D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95F0BFE016BFA75500E7D21D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95F0BFE216BFA75500E7D21D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95F0BFE616BFA75500E7D21D /* UzysCountClockView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UzysCountClockView-Info.plist"; sourceTree = "<group>"; };
+		95F0BFE816BFA75500E7D21D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95F0BFEA16BFA75500E7D21D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95F0BFEC16BFA75500E7D21D /* UzysCountClockView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UzysCountClockView-Prefix.pch"; sourceTree = "<group>"; };
+		95F0BFED16BFA75500E7D21D /* UzysAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UzysAppDelegate.h; sourceTree = "<group>"; };
+		95F0BFEE16BFA75500E7D21D /* UzysAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UzysAppDelegate.m; sourceTree = "<group>"; };
+		95F0BFF016BFA75500E7D21D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		95F0BFF216BFA75500E7D21D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		95F0BFF416BFA75500E7D21D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		95F0BFF616BFA75500E7D21D /* UzysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UzysViewController.h; sourceTree = "<group>"; };
+		95F0BFF716BFA75500E7D21D /* UzysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UzysViewController.m; sourceTree = "<group>"; };
+		95F0BFFA16BFA75500E7D21D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UzysViewController.xib; sourceTree = "<group>"; };
+		95F0C00116BFA79400E7D21D /* UzysCountClockViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysCountClockViewManager.h; sourceTree = "<group>"; };
+		95F0C00216BFA79400E7D21D /* UzysCountClockViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysCountClockViewManager.m; sourceTree = "<group>"; };
+		95F0C00416BFA7E800E7D21D /* SSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLabel.h; sourceTree = "<group>"; };
+		95F0C00516BFA7E800E7D21D /* SSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLabel.m; sourceTree = "<group>"; };
+		95F0C00716BFC0B300E7D21D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F0BFD816BFA75500E7D21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0C00816BFC0B300E7D21D /* QuartzCore.framework in Frameworks */,
+				95F0BFDF16BFA75500E7D21D /* UIKit.framework in Frameworks */,
+				95F0BFE116BFA75500E7D21D /* Foundation.framework in Frameworks */,
+				95F0BFE316BFA75500E7D21D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95F0BFD216BFA75500E7D21D = {
+			isa = PBXGroup;
+			children = (
+				95F0C00716BFC0B300E7D21D /* QuartzCore.framework */,
+				95F0BFE416BFA75500E7D21D /* UzysCountClockView */,
+				95F0BFDD16BFA75500E7D21D /* Frameworks */,
+				95F0BFDC16BFA75500E7D21D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95F0BFDC16BFA75500E7D21D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F0BFDB16BFA75500E7D21D /* UzysCountClockView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F0BFDD16BFA75500E7D21D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95F0BFDE16BFA75500E7D21D /* UIKit.framework */,
+				95F0BFE016BFA75500E7D21D /* Foundation.framework */,
+				95F0BFE216BFA75500E7D21D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95F0BFE416BFA75500E7D21D /* UzysCountClockView */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C00416BFA7E800E7D21D /* SSLabel.h */,
+				95F0C00516BFA7E800E7D21D /* SSLabel.m */,
+				95F0C00116BFA79400E7D21D /* UzysCountClockViewManager.h */,
+				95F0C00216BFA79400E7D21D /* UzysCountClockViewManager.m */,
+				95F0BFED16BFA75500E7D21D /* UzysAppDelegate.h */,
+				95F0BFEE16BFA75500E7D21D /* UzysAppDelegate.m */,
+				95F0BFF616BFA75500E7D21D /* UzysViewController.h */,
+				95F0BFF716BFA75500E7D21D /* UzysViewController.m */,
+				95F0BFF916BFA75500E7D21D /* UzysViewController.xib */,
+				95F0BFE516BFA75500E7D21D /* Supporting Files */,
+			);
+			path = UzysCountClockView;
+			sourceTree = "<group>";
+		};
+		95F0BFE516BFA75500E7D21D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95F0BFE616BFA75500E7D21D /* UzysCountClockView-Info.plist */,
+				95F0BFE716BFA75500E7D21D /* InfoPlist.strings */,
+				95F0BFEA16BFA75500E7D21D /* main.m */,
+				95F0BFEC16BFA75500E7D21D /* UzysCountClockView-Prefix.pch */,
+				95F0BFF016BFA75500E7D21D /* Default.png */,
+				95F0BFF216BFA75500E7D21D /* Default@2x.png */,
+				95F0BFF416BFA75500E7D21D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F0BFDA16BFA75500E7D21D /* UzysCountClockView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F0BFFE16BFA75500E7D21D /* Build configuration list for PBXNativeTarget "UzysCountClockView" */;
+			buildPhases = (
+				95F0BFD716BFA75500E7D21D /* Sources */,
+				95F0BFD816BFA75500E7D21D /* Frameworks */,
+				95F0BFD916BFA75500E7D21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UzysCountClockView;
+			productName = UzysCountClockView;
+			productReference = 95F0BFDB16BFA75500E7D21D /* UzysCountClockView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F0BFD316BFA75500E7D21D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Uzys;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Uzys;
+			};
+			buildConfigurationList = 95F0BFD616BFA75500E7D21D /* Build configuration list for PBXProject "UzysCountClockView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95F0BFD216BFA75500E7D21D;
+			productRefGroup = 95F0BFDC16BFA75500E7D21D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F0BFDA16BFA75500E7D21D /* UzysCountClockView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F0BFD916BFA75500E7D21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0BFE916BFA75500E7D21D /* InfoPlist.strings in Resources */,
+				95F0BFF116BFA75500E7D21D /* Default.png in Resources */,
+				95F0BFF316BFA75500E7D21D /* Default@2x.png in Resources */,
+				95F0BFF516BFA75500E7D21D /* Default-568h@2x.png in Resources */,
+				95F0BFFB16BFA75500E7D21D /* UzysViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F0BFD716BFA75500E7D21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0BFEB16BFA75500E7D21D /* main.m in Sources */,
+				95F0BFEF16BFA75500E7D21D /* UzysAppDelegate.m in Sources */,
+				95F0BFF816BFA75500E7D21D /* UzysViewController.m in Sources */,
+				95F0C00616BFB90A00E7D21D /* SSLabel.m in Sources */,
+				95F0C00316BFA79400E7D21D /* UzysCountClockViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95F0BFE716BFA75500E7D21D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F0BFE816BFA75500E7D21D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95F0BFF916BFA75500E7D21D /* UzysViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F0BFFA16BFA75500E7D21D /* en */,
+			);
+			name = UzysViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F0BFFC16BFA75500E7D21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95F0BFFD16BFA75500E7D21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F0BFFF16BFA75500E7D21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UzysCountClockView/UzysCountClockView-Prefix.pch";
+				INFOPLIST_FILE = "UzysCountClockView/UzysCountClockView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95F0C00016BFA75500E7D21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UzysCountClockView/UzysCountClockView-Prefix.pch";
+				INFOPLIST_FILE = "UzysCountClockView/UzysCountClockView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F0BFD616BFA75500E7D21D /* Build configuration list for PBXProject "UzysCountClockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F0BFFC16BFA75500E7D21D /* Debug */,
+				95F0BFFD16BFA75500E7D21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F0BFFE16BFA75500E7D21D /* Build configuration list for PBXNativeTarget "UzysCountClockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F0BFFF16BFA75500E7D21D /* Debug */,
+				95F0C00016BFA75500E7D21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F0BFD316BFA75500E7D21D /* Project object */;
+}
