@@ -8,6 +8,7 @@ Count from current Date to target date.
 
 * You can easily implement countdown clockview.
 * Support Both ARC and non-ARC Project
+* Very simple code , easy to understand clock counting
 
 ## Installation
 Copy over the files libary folder to your project folder
